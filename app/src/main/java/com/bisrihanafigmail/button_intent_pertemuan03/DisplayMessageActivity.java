@@ -19,7 +19,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         String message=intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
         TextView text=(TextView)findViewById(R.id.textView);
 
-        //meng-set komponen view dengan isi message
+        //meng-set komponen view dengan isi message.
         text.setText(message);
 
     }
