@@ -21,6 +21,6 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
         //meng-set komponen view dengan isi message
         text.setText(message);
-
+        //clean
     }
 }
